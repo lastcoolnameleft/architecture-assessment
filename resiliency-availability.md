@@ -1,7 +1,5 @@
 # Resiliency and High Availability
 
-_NOTE:  Under construction_
-
 ## Baseline
 
 * What is your service's SLA?
