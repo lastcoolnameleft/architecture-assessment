@@ -1,9 +1,7 @@
 # Resiliency and High Availability
 
-## Baseline
-
-* What is your service's SLA?
-* What is your service's SLO?
+* What is your service's SLA?  (e.g. QPS, Latency, Availability)
+* How do you know if they've been met?
 
 ## BC/DR
 
