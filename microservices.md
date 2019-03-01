@@ -26,22 +26,13 @@ _NOTE: Many of these questions are inspired by: [The Twelve-Factor App](https://
 * Do you have one repository per code base?
   * This question is to understand if the are able to build/deploiy their services separately.
 * How do you deploy your services?
-  * Follow up questions:
-    * Do you deploy your UI separately from your API?
-    * What are your deployment artifacts?
-      * e.g. Java WAR, .EXE, Container
-* What languages are used?
-
-## Dependencies
-
-* How do you declare your build dependencies?
-  * e.g. Maven, config files
-* How do you include your dependencies in your application?
-  * e.g. Built into application artifact, deployed in separate build process
+  * Do you deploy your UI separately from your API?
+  * What are your deployment artifacts? (e.g. Java WAR, .EXE, Container)
+* What languages are used?  (e.g. C#, PHP, Python)
 
 ## Config
 
-* How/where do you store your config?
+* How/Where does the application read it's config?
 * How do you generate your config?
 * How do you update config on your application?
 * Could you Open Source your application without exposing credentials?
@@ -51,26 +42,22 @@ _NOTE: Many of these questions are inspired by: [The Twelve-Factor App](https://
 
 * Do the processes store any state?
 * Do they need to support "sticky sessions"?
-* Do they share anything with other processes?
+* Do they share memory with other processes?
 
 ## Service Exposure
 
-* What ports are used?
+* What ports are exposed internally?
 * What ports are exposed externally?
   * Are these exposed to the public internet?
-* How are ports declared?
 
 ## Concurrency
 
-* Are there different process types?
-  * e.g. Admin process, client, server, db migration, one-time scripts
-  * How are they run?
 * How do you scale processes?
-  * Follow-up:  Can you scale processes independently?
+  * Can you scale those processes independently?
 
 ## Disposability
 
-* Can the processes be start/stopped on a moment's notice?
+* What's the impact if the process dies unexpectedly?
 * What is the process start time?
 * Are there background jobs?
   * Are the jobs re-enterant? (can be interrupted during exe and restarted safely)
@@ -95,7 +82,3 @@ _NOTE: Many of these questions are inspired by: [The Twelve-Factor App](https://
   * http://shop.oreilly.com/product/0636920072768.do
 * GitOps
   * https://www.weave.works/blog/gitops-operations-by-pull-request
-
-## Conclusion
-
-The keen observer will note that none of the questions above mentioned containers, but instead explored the process and standards which make for great containerized apps.
