@@ -4,7 +4,7 @@ This repo is designed to be a dumping ground of assessments and questionnaires I
 
 # Intent
 
-When working with customers and partners, I need to be able to quickly vet their solution before we start discussing architecture.  These pages are designed to help me standardize the questions.
+When working with customers and partners, I need to be able to quickly vet their solution before we start discussing architecture.  These pages are designed to help me standardize questions I should ask so that all bases are covered.
 
 # Subjects
 
@@ -17,5 +17,3 @@ This document covers the following topics:
 * [Other](https://github.com/lastcoolnameleft/assessments/blob/master/other.md) - Data retention, HIPPA, SOX
 * [Resiliency/Availability/Business Continuity/Disaster Recovery](https://github.com/lastcoolnameleft/assessments/blob/master/resiliency-availability.md) - RTO, RPO, SLA
 * [External Services](https://github.com/lastcoolnameleft/assessments/blob/master/external-services.md) - Databases, Cache, etc.
-
-
