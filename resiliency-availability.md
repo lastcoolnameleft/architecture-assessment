@@ -1,7 +1,9 @@
 # Resiliency and High Availability
 
 * What is your service's SLA?  (e.g. QPS, Latency, Availability)
-* How do you know if they've been met?
+  * How do you know if they've been met?
+* What is your service's Recovery Point Objective (RPO)?
+* What is your service's Recovery Time Objective (RTO)?
 
 ## BC/DR
 
@@ -12,8 +14,6 @@ See: https://azure.microsoft.com/en-us/features/resiliency/
 * Do you need multiple regions?
   * Which regions?
   * Hot/Cold?  Hot/Warm?  Hot/Hot?
-* What is your criteria for initiating a failover?
-* When is the last time you tested a failover?
 
 # Failures
 
