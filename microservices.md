@@ -14,7 +14,8 @@ _NOTE: Many of these questions are inspired by: "12 Factor apps"._
 
 ## Benefit
 
-* What benefit are you most interested in gaining from Microservices?  (e.g. 
+* What benefit are you most interested in gaining from Microservices? (e.g. quicker deployments, easier scaling, etc.)
+
 ## Application Codebase
 
 * What OS does the service run on?
