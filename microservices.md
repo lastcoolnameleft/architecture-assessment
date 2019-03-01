@@ -111,36 +111,9 @@ Is it clear that the 3 processes are separated and able to be run independently?
 
 * Can the processes be start/stopped on a moment's notice?
 * What is the process start time?
-* Can you run SIGTERM on them?
 * Are there background jobs?
   * Are the jobs re-enterant? (can be interrupted during exe and restarted safely)
   * Are the jobs idempotent?
-
-## DevOps
-
-* What is your release cycle?
-* Are you implementing CI/CD?
-  * If your CI/CD build servers were destroyed, how easily could you re-create it?
-* Does the Development Team contribute to Operations procedures?
-* Does the Operations Team contribute to Development application?
-* What distinct environments do you have?
-  * e.g. Dev, test, stage, prod
-    * How close does the development environment resemble test?
-    * How close does the test environment resemble stage?
-    * How close does the stage environment resemble production?
-
-## Monitoring
-
-* How are you currently monitoring the application?
-* How do you know if it goes down?
-* What alerts do you currently receive?
-
-## Logging
-
-* How are logs collected?
-* How are logs aggregated?
-* Where are logs stored locally?
-* Are all logs send to standard out?
 
 ## Culture
 
@@ -150,12 +123,6 @@ Is it clear that the 3 processes are separated and able to be run independently?
   * However, it's recommended to start with a single project to develop confidence + competence
 * How would you rate yourself from an automation perspective?
   * NOTE: If you rely on humans, you won't be able to scale.
-
-## Networking
-
-* Any IPv4/IPv6 requirements?
-* What is the expected traffic volume? traffic pattern?
-* What are the DR/HA requirements?
 
 ## References
 
