@@ -46,46 +46,6 @@ _NOTE: Many of these questions are inspired by: "12 Factor apps"._
 * Could you Open Source your application without exposing credentials?
   * Not asking if you plan to, but is just a litmus test
 
-## Backing Services
-
-* Do you use: (and if so, which one and what version)
-  * Database (e.g. SQL Server, MySQL, Postgres, Oracle)
-  * Message/Queue system (e.g. Service Bus, Kafka)
-  * SMTP
-  * Cache (e.g. Redis)
-  * Other API
-* Can replace any instance above without a code change?
-* Do you expect the DBA to keep the same role after the transition?
-
-## Build/Release/Run
-
-Ideally, these are 3 separate pipeline to an Application Deployment Lifecycle.  This section is designed to discover how they implement them.
-
-### Build
-
-The build step is designed to convert code to a bundle:
-
-* Do you convert checked in code to a build artifact?
-  * If so, what tools do you use to build it?
-
-### Release
-
-The release step combines build with config (ready for execution)
-
-* Do you have a unique id for each release?
-* Is the deployment mutated or deployed fresh each time?
-
-### Run
-
-The Run step launches the application
-
-* After the release step, how is the application started?
-  * e.g. Manually, some automated process
-
-### Follow-up
-
-Is it clear that the 3 processes are separated and able to be run independently?
-
 ## Application Process
 
 * Do the processes store any state?
