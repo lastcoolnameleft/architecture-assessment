@@ -1,14 +1,36 @@
 # Software Delivery
 
-## Automation
+## Deployment
+
+Typically, these are 3 separate pipeline to an Application Deployment Lifecycle. 
+
+### Build
+
+The build step is designed to convert code to a bundle:
+
 * How do you build your software? (e.g. Jenkins)
+* Do you convert checked in code to a build artifact?
+  * If so, what tools do you use to build it?
+* Are you implementing CI?
+
+### Release
+
+The release step combines build with config (ready for execution):
+
 * How do you release your software? (e.g. Ansible)
-* Are you implementing CI/CD?
-
-
-## Validation
+* Do you have a unique id for each release?
+* Is the deployment mutated or deployed fresh each time?
+* Are you implementing CI?
 * How do you manage deployment errors?
 * What are the pre/post launch validation plans?
+
+### Run
+
+The Run step launches the application
+
+* After the release step, how is the application started?
+  * e.g. Manually, some automated process
+
 
 ## Configuration
 * How do you deploy configuration files across environments?
