@@ -10,7 +10,7 @@ Because each application is a special snowflake, this document is designed to pr
 
 These are designed to ask probing questions to determine the application's maturity in migrating to containers, but could also be applied to any Cloud Native solution.
 
-_NOTE: Many of these questions are inspired by: "12 Factor apps"._
+_NOTE: Many of these questions are inspired by: [The Twelve-Factor App](https://12factor.net/)_
 
 ## Benefit
 
