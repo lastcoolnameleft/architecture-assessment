@@ -11,6 +11,7 @@ When working with customers and partners, I need to be able to quickly vet their
 This document covers the following topics:
 * [Application Lifecycle](https://github.com/lastcoolnameleft/assessments/blob/master/application-lifecycle.md) - CI/CD, DevOps
 * [Capacity](https://github.com/lastcoolnameleft/assessments/blob/master/capacity.md) - Scaling, RPS, etc.
+* [Containers](https://github.com/lastcoolnameleft/assessments/blob/master/containers.md) - Managed K8S, Security contiderations, etc.
 * [Microservices](https://github.com/lastcoolnameleft/assessments/blob/master/microservices.md) - Application Design, Configuration, Concurrency
 * [Networking](https://github.com/lastcoolnameleft/assessments/blob/master/networking.md) - Connectivity requirements
 * [Observability](https://github.com/lastcoolnameleft/assessments/blob/master/observability.md) - Monitoring, Alerting, etc.
