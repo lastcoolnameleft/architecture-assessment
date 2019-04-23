@@ -53,6 +53,11 @@ This list is intended to list out all of the attack vectors.  Prefix each of the
 * Harden the Dashboard.  (See:  https://redlock.io/blog/cryptojacking-tesla)
 * [Staying up-to-date](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-security#regularly-update-to-the-latest-version-of-kubernetes)
 
+### Secrets and Configs
+
+* Encryption and Storage of secret data - [Azure Key Vault Plugin for K8S](https://github.com/Azure/kubernetes-kms)
+  * Alternative: https://github.com/Azure/kubernetes-keyvault-flexvol
+
 ## Credits
 
 Inspired by: 
