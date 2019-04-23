@@ -14,6 +14,7 @@ This document covers the following topics:
 * [Containers](https://github.com/lastcoolnameleft/assessments/blob/master/containers.md) - Managed K8S, Security contiderations, etc.
 * [Microservices](https://github.com/lastcoolnameleft/assessments/blob/master/microservices.md) - Application Design, Configuration, Concurrency
 * [Networking](https://github.com/lastcoolnameleft/assessments/blob/master/networking.md) - Connectivity requirements
+* [Security](https://github.com/lastcoolnameleft/assessments/blob/master/security.md) - Security Considerations
 * [Observability](https://github.com/lastcoolnameleft/assessments/blob/master/observability.md) - Monitoring, Alerting, etc.
 * [Other](https://github.com/lastcoolnameleft/assessments/blob/master/other.md) - Data retention, HIPPA, SOX
 * [Resiliency/Availability/Business Continuity/Disaster Recovery](https://github.com/lastcoolnameleft/assessments/blob/master/resiliency-availability.md) - RTO, RPO, SLA
