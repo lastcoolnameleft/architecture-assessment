@@ -135,16 +135,11 @@ The Run step launches the application
 ## Networking
 
 * Any IPv4/IPv6 requirements?
-* What is the expected traffic volume? traffic pattern?
-* What are the DR/HA requirements?
+* What is the expected traffic volume/pattern? (e.g. 1000 rps from 5-9, 50 otherwise; bursty during European daylight)
+* Will the application be exposed to the public internet?
+* Is a Network or Web Application Firewall required?
 
-## References
+## Other
 
-* Building Microservices by Sam Newman
-  * http://shop.oreilly.com/product/0636920033158.do
-* Production Ready Microservices by Susan Fowler
-  * http://shop.oreilly.com/product/0636920053675.do
-* Designing Distributed Systems
-  * http://shop.oreilly.com/product/0636920072768.do
-* GitOps
-  * https://www.weave.works/blog/gitops-operations-by-pull-request
+* What are the High Availability/Business Continuity/Disaster Recovery requirements?
+* What are the compliance/governance requirements? (e.g. HIPPA, HITRUST, Gov Cloud, etc.)
