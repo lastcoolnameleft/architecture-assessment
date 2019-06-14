@@ -2,7 +2,7 @@
 
 ## Background
 
-Utilizing "The Cloud" or "Containers" provides numerous benefits for both application developers and operators.  However, this journey requires careful planning and preparation.
+Utilizing the cloud or containers provides numerous benefits for both application developers and operators.  However, this journey requires careful planning and preparation.
 
 ## Purpose
 
