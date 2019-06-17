@@ -52,42 +52,24 @@ _NOTE: Many of these questions are inspired by: "12 Factor apps"._
 
 ## Build/Release/Run
 
-Ideally, these are 3 separate pipelines to an Application Deployment Lifecycle.  This section is designed to discover how they are implemented.
-
-### Build
-
-The build step is designed to convert code to a bundle:
-
-* Do you convert checked in code to a build artifact?
-  * If so, what tools do you use to build it?
-  * Where is that artifact stored?
-
-### Release
-
-The release step combines build with config (ready for execution)
-
-* Do you have a unique id for each release?
-* Is the deployment mutated or deployed fresh each time?
-
-### Run
-
-The Run step launches the application
-
-* After the release step, how is the application started?
-  * e.g. Manually, some automated process
+* How do you build your application? (e.g. Jenkins, custom scripts)
+  * Where are the artifacts stored? (e.g. Artifactory?  Azure Container Registry)
+* How do you release your application? (e.g. Screwdriver, etc.)
+  * Do you have a unique id for each release?
+  * Is the deployment mutated or deployed fresh each time?
+* How do you start your application?  (e.g. Manually; some automated process)
 
 ## Application Process
 
-* Does the processes store any state?
+* How do the processes manage and store state?
 * Does the application need to support "sticky sessions"?
 
 ## Service Exposure
 
-* What ports are used?
-* What ports are exposed externally?
-  * Are these exposed to the public internet?
-* How are ports declared?
-* What security needs to be in place for these services (e.g. SSL, WAF, etc.)
+* What ports are exposed internally?
+* What ports are exposed externally?  
+* How are these ports exposed?
+* What security needs to be in place for these services? (e.g. SSL, WAF, etc.)
 
 ## Concurrency
 
@@ -108,22 +90,16 @@ The Run step launches the application
 
 ## DevOps
 
-* What is your release cycle?
+* How often do you release?
 * Are you implementing CI/CD?
-  * If your CI/CD build servers were destroyed, how easily could you re-create it?
 * What distinct environments do you have? (e.g. Dev, test, stage, prod)
-  * How is the application moved from dev->test->stg->prod?
+* How is the application moved from the environments listed above?
 
-## Monitoring
+## Observability
 
-* How do you know if the system goes down?
-* How do you determine which component of the system needs investigation?
-* How do you debug the system?
-
-## Logging
-
-* How are logs collected and aggregated?
-* Where are logs stored locally?
+* How do you detect an outage?
+* How do you pinpoint the source of the outage?
+* How are logs accessed?
 
 ## Culture
 
@@ -135,9 +111,14 @@ The Run step launches the application
 ## Networking
 
 * Any IPv4/IPv6 requirements?
-* What is the expected traffic volume/pattern? (e.g. 1000 rps from 5-9, 50 otherwise; bursty during European daylight)
+* What is the expected traffic volume/pattern? (e.g. 1000 rps from 5-9, 50 rps otherwise; bursty during European daylight)
 * Will the application be exposed to the public internet?
 * Is a Network or Web Application Firewall required?
+
+## Policies
+
+* What are your network policy requirements?
+* What are you pod security policy requirements?
 
 ## Other
 
