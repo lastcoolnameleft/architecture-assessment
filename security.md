@@ -62,6 +62,10 @@ This list is intended to list out all of the attack vectors.  Prefix each of the
 
 * Web Application Firewall - L7 Protection from cross-site scripting (XSS) attacks, SQL injection attacks, session hijacking and buffer overflows
 
+### Multi-tenancy
+
+* Multiple tenant on the same cluster and/or a cluster per tenant
+
 ## Credits
 
 Inspired by: 
