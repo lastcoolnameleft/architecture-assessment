@@ -15,9 +15,7 @@ See: https://azure.microsoft.com/en-us/features/resiliency/
   * Which regions?
   * Hot/Cold?  Hot/Warm?  Hot/Hot?
 
-# Failures
+## Failures
 
 * Are there any SPOF (Single Points of Failure)?
-* How do you detect when a disk is full?
-* What do you do when a disk is full?
-* How does your application react when a disk is full?
+* How/What do you detect when a disk is full?
