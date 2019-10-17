@@ -69,5 +69,6 @@ This list is intended to list out all of the attack vectors.  Prefix each of the
 ## Credits
 
 Inspired by: 
+* [Securing Kubernetes](https://info.aquasec.com/securing_kubernetes)
 * [Container Security in MS](https://azure.microsoft.com/mediahandler/files/resourcefiles/container-security-in-microsoft-azure/Open%20Container%20Security%20in%20Microsoft%20Azure.pdf)
 * [AKS Container Security](https://info.cloudops.com/azure-kubernetes-services-container-security)
