@@ -1,21 +1,23 @@
 # Architecture Assessments
 
-This repo is designed to be a dumping ground of questions I've learned to ask when assessing a new software solution.
+This repo is designed to be a checklist of questions when migrating a system to a [Cloud Native](https://www.cncf.io/) Architecture.
 
-# Intent
+## Intent
 
-When working with customers and partners, I need to be able to quickly vet their solution before we start discussing architecture or implementation.  These pages are designed to help me standardize questions I should ask so that all bases are covered.
+As a Cloud Solution Architect for Microsoft, I need to be able to quickly vet and understand a wide range of solutions before starting the discussion of architecture or implementation.  These pages are designed to help cover all bases during the investigation stage of a project.
 
-# Subjects
+## How to use
 
-This document covers the following topics:
-* [Application Lifecycle](https://github.com/lastcoolnameleft/assessments/blob/master/application-lifecycle.md) - CI/CD, DevOps
-* [Capacity](https://github.com/lastcoolnameleft/assessments/blob/master/capacity.md) - Scaling, RPS, etc.
-* [Containers](https://github.com/lastcoolnameleft/assessments/blob/master/containers.md) - Managed K8S, Security contiderations, etc.
-* [Microservices](https://github.com/lastcoolnameleft/assessments/blob/master/microservices.md) - Application Design, Configuration, Concurrency
-* [Networking](https://github.com/lastcoolnameleft/assessments/blob/master/networking.md) - Connectivity requirements
-* [Security](https://github.com/lastcoolnameleft/assessments/blob/master/security.md) - Security Considerations
-* [Observability](https://github.com/lastcoolnameleft/assessments/blob/master/observability.md) - Monitoring, Alerting, etc.
-* [Other](https://github.com/lastcoolnameleft/assessments/blob/master/other.md) - Data retention, HIPPA, SOX
-* [Resiliency/Availability/Business Continuity/Disaster Recovery](https://github.com/lastcoolnameleft/assessments/blob/master/resiliency-availability.md) - RTO, RPO, SLA
-* [External Services](https://github.com/lastcoolnameleft/assessments/blob/master/external-services.md) - Databases, Cache, etc.
+Start with the [Intial Assessment](initial-assessment.md) and then dig deeper into the following topics as needed:
+
+* [Application Lifecycle](application-lifecycle.md) - CI/CD, DevOps
+* [Capacity](capacity.md) - Scaling, RPS, etc.
+* [Containers](containers.md) - Docker, K8S, etc.
+* [Microservices](microservices.md) - Distributed Application Design
+* [Multi-Tenancy](multi-tenancy.md) - Isolating multiple apps or multiple types of apps in the same cluster
+* [Networking](networking.md) - Connectivity requirements (e.g. Ingress and Egress traffic)
+* [Security](security.md) - Day 0 exploits, DDoS, etc.
+* [Observability](observability.md) - Monitoring, Alerting, etc.
+* [Other](other.md) - Data retention, HIPPA, SOX
+* [Resiliency/Availability/Business Continuity/Disaster Recovery](resiliency-availability.md) - RTO, RPO, SLA
+* [External Services](external-services.md) - Databases, Cache, etc.

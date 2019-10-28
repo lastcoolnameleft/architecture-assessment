@@ -3,6 +3,7 @@
 This list is intended to list out all of the attack vectors.  Prefix each of these items with "Do you need to consider X?"
 
 ## Top Level
+
 * Kernel exploits
 * Denial-of-service attacks
 * Container Breakouts
@@ -10,6 +11,7 @@ This list is intended to list out all of the attack vectors.  Prefix each of the
 * Compromising Secrets
 
 ## Principles to follow
+
 * Minimize the attack surface
 * Apply the principle of least privilege
 * Segregation
@@ -49,6 +51,7 @@ This list is intended to list out all of the attack vectors.  Prefix each of the
 * Limit outbound traffic from cluster - Azure Firewall
 
 ### Administration
+
 * AuthZ + AuthN - [Enable Azure AD for RBAC](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-security#secure-access-to-the-api-server-and-cluster-nodes)
 * Harden the Dashboard.  (See:  https://redlock.io/blog/cryptojacking-tesla)
 * [Staying up-to-date](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-security#regularly-update-to-the-latest-version-of-kubernetes)

@@ -48,3 +48,7 @@ The Run step launches the application
 
 * Is there an approval system for change?
 * How do you document production changes?
+
+## Resources
+
+* https://12factor.net/

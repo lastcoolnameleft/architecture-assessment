@@ -1,4 +1,4 @@
-# Microservice/Container Maturity Questionaire
+# Initial Cloud Native Application Assessment
 
 ## Background
 
@@ -10,11 +10,9 @@ Because each application is a special snowflake, this document is designed to pr
 
 These are designed to ask probing questions to determine the application's maturity in migrating to containers, but could also be applied to any Cloud Native solution.
 
-_NOTE: Many of these questions are inspired by: "12 Factor apps"._
-
 ## Benefit
 
-* What is your main benefit you plan to utilize with containers?
+* What is your main benefit you plan to utilize with going Cloud Native?
 
 ## Application Codebase
 
@@ -43,7 +41,7 @@ _NOTE: Many of these questions are inspired by: "12 Factor apps"._
 ## Backing Services
 
 * Do you use: (and if so, which one and what version)
-  * Database (e.g. SQL Server, MySQL, Postgres, Oracle)
+  * Database (e.g. SQL Server, MySQL, PostgreSQL, Oracle)
   * Message/Queue system (e.g. Service Bus, Kafka)
   * SMTP
   * Cache (e.g. Redis)
@@ -118,9 +116,14 @@ _NOTE: Many of these questions are inspired by: "12 Factor apps"._
 ## Policies
 
 * What are your network policy requirements?
-* What are you pod security policy requirements?
+* What are your pod security policy requirements?
+* What are your access control policy requirements?
+* What are the compliance/governance requirements? (e.g. HIPPA, HITRUST, Gov Cloud, etc.)
 
 ## Other
 
 * What are the High Availability/Business Continuity/Disaster Recovery requirements?
-* What are the compliance/governance requirements? (e.g. HIPPA, HITRUST, Gov Cloud, etc.)
+
+## Resources
+
+* https://12factor.net/
